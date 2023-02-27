@@ -159,6 +159,14 @@ struct fenwik{
     }
 };
 
+int new_function(int n){
+    vi fact(3);
+    fact[0] = 1;
+    fact[1]= 1;
+    fact[2] = 2;
+    return fact[n];
+}
+
 void solve(){
     fenwik tree(1e5 + 5);
 
